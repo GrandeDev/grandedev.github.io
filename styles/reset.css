@@ -46,3 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	font-family: "Fira Code", Arial, Helvetica, sans-serif;
+}
+
+button {
+    border: 0;
+	font-family: inherit;
+	color: #FFF;
+}

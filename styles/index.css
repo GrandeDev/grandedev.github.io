@@ -1,56 +1,7 @@
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;    background-color: #273043;
-    border-bottom: 10px solid #000;
-    padding: 10px 20px;
-
-}
-
-
 #sigla-header {
     font-family: 'Press Start 2P', sans-serif;
     color: #FFF;
     text-shadow: 5px 5px 0 #5398BE;
     font-size: 30px;
 
-}
-
-nav {
-    text-align: right;
-}
-
-a {
-    display: inline-flex;
-    align-items: center;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-
-}
-
-a::before {
-    content: "";
-    background-color: #5398BE;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-/* as formatações feitas com # que é um ID funciona apenas uma vez no elemente atribuído */
-
-#button {
-    display: inline-block;
-    background-color: #5398BE;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0 #000;
-    margin-right: 0;
-    transition: transform 600ms cubic-bezier(.56,-1.47,.27,1.55);
-}
-
-#button:hover{
-    transform: scale(1.1);
 }
