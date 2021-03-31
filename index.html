@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Gabriel Mazieri</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/components/header.css">
@@ -17,9 +19,11 @@
     <link rel="stylesheet" href="./styles/components/button.css">
     <link rel="stylesheet" href="./styles/components/action.css">
     <link rel="stylesheet" href="./styles/components/skill-tec.css">
+    <link rel="stylesheet" href="./styles/components/wrapper-skill.css">
     <link rel="stylesheet" href="./styles/components/progress-bar.css">
 
 </head>
+
 <body>
     <header class="header">
         <h1 id="sigla-header">GM</h1>
@@ -49,24 +53,46 @@
     <section class="section">
         <h2 class="main-title -second">Skills</h2>
 
-        <article class="skill-tec">
-            <img class="icon" src="./assets/img/html-5.png" alt="HTML">
-            <div class="right">
-                <h3>HTML5</h3>
-                <progress class="progress-bar" max="100" value="70">
-                    70%
-                </progress>
-            </div>    
-        </article>
-
-
-        <!-- <dl class="skill-tec">
-            <dd class="icon">
-                <img src="./assets/img/css-3.png" alt="CSS3">
-            </dd>
-            <dt class="title">CSS3</dt>
-        </dl> -->
+        <div class="wrapper-skill">
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/html-5.png" alt="Logo do HTML5">
+                <div class="right">
+                    <h3>HTML5</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/css-3.png" alt="Logo do CSS3">
+                <div class="right">
+                    <h3>CSS3</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/javascript.png" alt="Logo do Javascript">
+                <div class="right">
+                    <h3>Javascript</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/php.png" alt="Logo do PHP">
+                <div class="right">
+                    <h3>PHP</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
     </section>
+    </div>
 
 </body>
+
 </html>
